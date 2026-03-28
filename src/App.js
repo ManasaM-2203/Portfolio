@@ -10,7 +10,7 @@ import deloitteCert from "./assets/deloitte_cert.png";
 import microsoftCert from "./assets/microsoft_cert.png";
 import cilCert      from "./assets/cil_cert.png";
 import ibmCert      from "./assets/ibm_cert.png";
-import resumePDF    from "./assets/Manasa_M_Resume_1.pdf";
+import resumePDF    from "./assets/Manasa_M_Resume-5.pdf";
 
 const NAV_LINKS = ["About", "Skills", "Experience", "Education", "Projects", "Certifications", "Contact"];
 
@@ -279,7 +279,7 @@ export default function App() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M16 3H8a2 2 0 00-2 2v2h12V5a2 2 0 00-2-2z"/></svg>
                 Hire Me
               </a>
-              <a href={resumePDF} download="Manasa_M_Resume_1.pdf" className="btn-download">
+              <a href={resumePDF} download="Manasa_M_Resume-5.pdf" className="btn-download">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 Download CV
               </a>
