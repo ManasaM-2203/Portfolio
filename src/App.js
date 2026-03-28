@@ -10,7 +10,7 @@ import deloitteCert from "./assets/deloitte_cert.png";
 import microsoftCert from "./assets/microsoft_cert.png";
 import cilCert      from "./assets/cil_cert.png";
 import ibmCert      from "./assets/ibm_cert.png";
-import resumePDF    from "./assets/Manasa_M_Resume.pdf";
+import resumePDF    from "./assets/Manasa_M_Resume_1.pdf";
 
 const NAV_LINKS = ["About", "Skills", "Experience", "Education", "Projects", "Certifications", "Contact"];
 
