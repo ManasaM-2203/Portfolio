@@ -11,6 +11,7 @@ import microsoftCert from "./assets/microsoft_cert.png";
 import cilCert      from "./assets/cil_cert.png";
 import ibmCert      from "./assets/ibm_cert.png";
 import resumePDF    from "./assets/Manasa_M_Resume-4.pdf";
+import jpMorganCert from "./assets/JP Morgan.png";
 
 const NAV_LINKS = ["About", "Skills", "Experience", "Education", "Projects", "Certifications", "Contact"];
 
@@ -58,6 +59,26 @@ const EDUCATION = [
 ];
 
 const PROJECTS = [
+  {
+    name: "Autonomous Agentic AI Ops Analyst",
+    subtitle: "Predictive Infrastructure Intelligence System",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+    stack: [
+      "Python",
+      "Flask",
+      "React.js",
+      "LangChain",
+      "Ollama",
+      "RAG",
+      "Isolation Forest",
+      "TF-IDF",
+      "ESP32",
+      "MongoDB"
+    ],
+    github: "https://github.com/your-repo-link", // update this
+    description:
+      "An intelligent agentic AI system designed to monitor IT infrastructure in real time, detect anomalies, and predict system failures before they occur. The system ingests logs and live metrics from distributed nodes, applies TF-IDF and Isolation Forest for anomaly detection, and uses ML-based risk scoring with projected crash-time prediction. Integrated with a RAG pipeline (LangChain + Ollama), it generates human-like diagnostic insights and recommended actions. Supports multi-node monitoring, OTP-based admin takeover, and real-time alert escalation, acting as an autonomous AI operations analyst.",
+  },
   {
     name: "Planova",
     subtitle: "Project Management System",
@@ -114,6 +135,11 @@ const CERTS = [
     image: ibmCert,
     verify: "https://www.credly.com/badges/79b9e9bd-c723-4b88-b6a3-de440d9c71df",
   },
+  {
+    title: "Software Engineering Job Simulation",
+    issuer: "JPMorgan Chase & Co. via Forage · Mar 2026",
+    image: jpMorganCert,
+  }
 ];
 
 // ── Hooks ──────────────────────────────────────────────────────
@@ -269,10 +295,10 @@ export default function App() {
               challenging problem to solve.
             </p>
             <div className="hero-stats" ref={statsRef}>
-              <StatCard value={3} label="Projects Built" start={statsInView} />
-              <StatCard value={5} label="Certifications" start={statsInView} />
-              <StatCard value={9} label="CGPA" suffix=".4" start={statsInView} />
-              <StatCard value={1} label="Internship" start={statsInView} />
+            <StatCard value={PROJECTS.length} label="Projects Built" start={statsInView} />
+            <StatCard value={CERTS.length} label="Certifications" start={statsInView} />
+            <StatCard value={9} label="CGPA" suffix=".4" start={statsInView} />
+            <StatCard value={EXPERIENCE.length} label="Internship" start={statsInView} />
             </div>
             <div className="hero-cta">
               <a href="mailto:manasa.m120405@gmail.com?subject=Hiring Inquiry" className="btn-hire">
