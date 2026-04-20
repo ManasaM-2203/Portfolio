@@ -10,7 +10,7 @@ import deloitteCert from "./assets/deloitte_cert.png";
 import microsoftCert from "./assets/microsoft_cert.png";
 import cilCert      from "./assets/cil_cert.png";
 import ibmCert      from "./assets/ibm_cert.png";
-import resumePDF    from "./assets/Manasa_M_Resume-4.pdf";
+import resumePDF    from "./assets/Manasa_M_Resumee.pdf";
 import jpMorganCert from "./assets/JP Morgan.png";
 
 const NAV_LINKS = ["About", "Skills", "Experience", "Education", "Projects", "Certifications", "Contact"];
@@ -301,11 +301,11 @@ export default function App() {
             <StatCard value={EXPERIENCE.length} label="Internship" start={statsInView} />
             </div>
             <div className="hero-cta">
-              <a href="mailto:manasa.m120405@gmail.com?subject=Hiring Inquiry" className="btn-hire">
+              <a href="mailto:manasa12.m5@gmail.com?subject=Hiring Inquiry" className="btn-hire">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M16 3H8a2 2 0 00-2 2v2h12V5a2 2 0 00-2-2z"/></svg>
                 Hire Me
               </a>
-              <a href={resumePDF} download="Manasa_M_Resume-4.pdf" className="btn-download">
+              <a href={resumePDF} download="Manasa_M_Resumee.pdf" className="btn-download">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 Download CV
               </a>
@@ -394,7 +394,7 @@ export default function App() {
           <a href="tel:7338541456" className="contact-icon-btn" title="Phone">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.92 2.18 2 2 0 012.92 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           </a>
-          <a href="mailto:manasa.m120405@gmail.com" className="contact-icon-btn" title="Email">
+          <a href="mailto:manasa12.m5@gmail.com" className="contact-icon-btn" title="Email">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
           </a>
         </div>
