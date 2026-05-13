@@ -52,7 +52,7 @@ const EDUCATION = [
   },
   {
     institution: "VSSIPS",
-    degree: "SSLC – Class 10 (CBSE)",
+    degree: "Class 10 (CBSE)",
     period: "2019 – 2021",
     score: "95.6%",
   },
